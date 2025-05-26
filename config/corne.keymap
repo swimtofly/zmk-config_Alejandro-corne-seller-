@@ -37,10 +37,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB    &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &none        &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_PLUS   &kp KP_DIVIDE  &kp BSPC
-&none      &none       &none         &none         &none         &none        &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MINUS  &kp UP         &kp KP_MULTIPLY
-&kp LSHFT  &kp Z       &trans        &trans        &trans        &kp Y        &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp LEFT      &kp DOWN       &kp RIGHT_ARROW
-                                     &kp LGUI      &to 0         &kp ENTER    &kp SPACE        &kp KP_NUMBER_0  &kp RALT
+&trans  &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &none        &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_PLUS   &kp KP_DIVIDE  &kp BSPC
+&trans  &none       &none         &none         &none         &none        &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MINUS  &kp UP         &kp KP_MULTIPLY
+&trans  &kp Z       &trans        &trans        &trans        &kp Y        &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp LEFT      &kp DOWN       &kp RIGHT_ARROW
+                                  &kp LGUI      &to 0         &kp ENTER    &kp SPACE        &kp KP_NUMBER_0  &kp RALT
             >;
         };
 
@@ -52,10 +52,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB    &kp EXCL       &kp AT            &kp HASH    &kp DLLR      &kp PRCNT          &kp CARET  &kp AMPS         &kp KP_MULTIPLY  &kp LPAR               &kp LEFT_BRACKET   &kp DELETE
-&kp LCTRL  &kp C_AC_BACK  &kp C_AC_FORWARD  &kp C_PLAY  &trans        &kp K_MUTE         &kp PLUS   &kp KP_MULTIPLY  &kp EQUAL        &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp GRAVE
-&trans     &trans         &trans            &trans      &kp C_VOL_DN  &kp C_VOLUME_UP    &kp MINUS  &kp BACKSLASH    &none            &none                  &kp PIPE           &kp TILDE
-                                            &kp LGUI    &to 3         &kp SPACE          &kp RET    &trans           &kp RALT
+&trans  &kp EXCL       &kp AT            &kp HASH    &kp DLLR      &kp PRCNT          &kp CARET  &kp AMPS         &kp KP_MULTIPLY  &kp LPAR               &kp LEFT_BRACKET   &kp DELETE
+&trans  &kp C_AC_BACK  &kp C_AC_FORWARD  &kp C_PLAY  &trans        &kp K_MUTE         &kp PLUS   &kp KP_MULTIPLY  &kp EQUAL        &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp GRAVE
+&trans  &trans         &trans            &trans      &kp C_VOL_DN  &kp C_VOLUME_UP    &kp MINUS  &kp BACKSLASH    &none            &none                  &kp PIPE           &kp TILDE
+                                         &kp LGUI    &to 3         &kp SPACE          &kp RET    &trans           &kp RALT
             >;
         };
 
