@@ -37,10 +37,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &trans  &trans          &trans  &trans          &trans             &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_PLUS   &kp CARET        &kp BSPC
-&trans  &none   &kp DOWN_ARROW  &kp UP  &kp LEFT_ARROW  &kp RIGHT_ARROW    &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MINUS  &kp KP_MULTIPLY  &none
-&trans  &trans  &trans          &trans  &trans          &trans             &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp EQUAL     &kp SLASH        &kp DELETE
-                                &trans  &to 0           &trans             &trans           &kp KP_NUMBER_0  &trans
+&trans  &trans  &trans          &trans  &trans          &trans             &kp EQUAL  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp CARET        &kp BSPC
+&trans  &none   &kp DOWN_ARROW  &kp UP  &kp LEFT_ARROW  &kp RIGHT_ARROW    &kp PLUS   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MULTIPLY  &none
+&trans  &trans  &trans          &trans  &trans          &trans             &kp MINUS  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp SLASH        &kp DELETE
+                                &trans  &to 0           &trans             &trans     &kp KP_NUMBER_0  &trans
             >;
         };
 
