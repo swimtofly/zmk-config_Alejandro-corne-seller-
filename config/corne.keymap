@@ -12,11 +12,13 @@
 
 / {
     macros {
-        screenshot_markedarea: screenshot_markedarea {
+        screenshot_area: screenshot_area {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_SHIFT &kp LEFT_CONTROL &kp LEFT_GUI &kp NUMBER_4>;
-            label = "SCREENSHOT_MARKEDAREA";
+            bindings = <&kp LEFT_SHIFT &kp LCTRL &kp LEFT_GUI &kp KP_NUMBER_4>;
+            label = "SCREENSHOT_AREA";
+            wait-ms = <1>;
+            tap-ms = <0>;
         };
     };
 
@@ -61,10 +63,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp EXCL                &kp AT            &kp HASH    &kp DLLR      &kp PRCNT          &kp CARET  &kp AMPS         &kp KP_MULTIPLY  &kp LPAR               &kp LEFT_BRACKET   &kp BACKSPACE
-&trans  &kp C_AC_BACK           &kp C_AC_FORWARD  &kp C_PLAY  &trans        &kp K_MUTE         &kp PLUS   &kp KP_MULTIPLY  &kp EQUAL        &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp GRAVE
-&trans  &screenshot_markedarea  &trans            &trans      &kp C_VOL_DN  &kp C_VOLUME_UP    &kp MINUS  &kp BACKSLASH    &none            &kp TILDE              &kp PIPE           &kp DELETE
-                                                  &trans      &to 3         &trans             &trans     &trans           &trans
+&trans  &kp EXCL          &kp AT            &kp HASH    &kp DLLR      &kp PRCNT          &kp CARET  &kp AMPS         &kp KP_MULTIPLY  &kp LPAR               &kp LEFT_BRACKET   &kp BACKSPACE
+&trans  &kp C_AC_BACK     &kp C_AC_FORWARD  &kp C_PLAY  &trans        &kp K_MUTE         &kp PLUS   &kp KP_MULTIPLY  &kp EQUAL        &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp GRAVE
+&trans  &screenshot_area  &trans            &trans      &kp C_VOL_DN  &kp C_VOLUME_UP    &kp MINUS  &kp BACKSLASH    &none            &kp TILDE              &kp PIPE           &kp DELETE
+                                            &trans      &to 3         &trans             &trans     &trans           &trans
             >;
         };
 
