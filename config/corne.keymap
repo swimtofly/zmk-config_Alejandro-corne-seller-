@@ -52,10 +52,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp EXCL    &kp AT         &kp HASH          &kp DLLR         &kp PRCNT     &kp CARET  &kp AMPS         &kp KP_MULTIPLY  &kp LPAR               &kp LEFT_BRACKET   &kp BACKSPACE
-&trans  &kp K_BACK  &kp K_FORWARD  &kp K_PLAY_PAUSE  &kp C_VOLUME_UP  &kp K_MUTE    &kp PLUS   &kp KP_MULTIPLY  &kp EQUAL        &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp GRAVE
-&trans  &kp F13     &trans         &trans            &kp C_VOL_DN     &trans        &kp MINUS  &kp BACKSLASH    &none            &kp TILDE              &kp PIPE           &kp DELETE
-                                   &trans            &to 3            &trans        &trans     &trans           &trans
+&trans  &kp EXCL    &kp AT         &kp HASH    &kp DLLR         &kp PRCNT     &kp CARET  &kp AMPS         &kp KP_MULTIPLY  &kp LPAR               &kp LEFT_BRACKET   &kp BACKSPACE
+&trans  &kp K_BACK  &kp K_FORWARD  &kp C_PLAY  &kp C_VOLUME_UP  &kp K_MUTE    &kp PLUS   &kp KP_MULTIPLY  &kp EQUAL        &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp GRAVE
+&trans  &kp F13     &trans         &trans      &kp C_VOL_DN     &trans        &kp MINUS  &kp BACKSLASH    &none            &kp TILDE              &kp PIPE           &kp DELETE
+                                   &trans      &to 3            &trans        &trans     &trans           &trans
             >;
         };
 
